@@ -1,0 +1,139 @@
+{
+  "names": {
+    "default": {
+      "roman": "Gen"
+    },
+    "japan": {
+      "roman": "Gen",
+      "original": "元"
+    }
+  },
+  "images": {
+    "face": "gen.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shuraku",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Hozen",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Change Style: Mantis",
+        "input": "[LP]+[MP]+[HP] ({airOK})"
+      },
+      {
+        "name": "Change Style: Crane",
+        "input": "[LK]+[MK]+[HK] ({airOK})"
+      },
+      {
+        "name": "[Mantis] Target Combo 1",
+        "input": ":d:+[LK] > :d:+[MK]"
+      },
+      {
+        "name": "[Mantis] Target Combo 2",
+        "input": "[HP] > [MK]"
+      },
+      {
+        "name": "[Crane] Shakudan",
+        "input": "{inAir} [HK] > [HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "[Mantis] Hyakurenko",
+        "input": "{tapPunch}",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "[Mantis] Gekiro",
+        "input": ":dp:+[K] ({tapKick} {forMoreHits})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "[Crane] Jyasen",
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "[Crane] Oga",
+        "input": "{charge} :d: :u:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "[Crane] Sudden Stop",
+        "input": ":b:",
+        "after": "[Crane] Oga"
+      },
+      {
+        "name": "[Crane] Close Kick",
+        "input": ":n: {or} :d:",
+        "after": "[Crane] Oga"
+      },
+      {
+        "name": "[Crane] Far Kick",
+        "input": ":df: {or} :f:",
+        "after": "[Crane] Oga"
+      },
+      {
+        "name": "[Crane] Ceiling Jump",
+        "input": ":ub: {or} :u: {or} :uf:",
+        "after": "[Crane] Oga"
+      },
+      {
+        "name": "[Crane] Falling Kick",
+        "input": ":d:",
+        "after": "[Crane] Ceiling Jump"
+      },
+      {
+        "name": "[Crane] Close Range Kick Right",
+        "input": ":df: {or} :f:",
+        "after": "[Crane] Ceiling Jump"
+      },
+      {
+        "name": "[Crane] Close Range Kick Left",
+        "input": ":db: {or} :b:",
+        "after": "[Crane] Ceiling Jump"
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "[Mantis] Zan'ei",
+        "input": ":qcf::qcf:+[P]"
+      },
+      {
+        "name": "[Crane] Jyakoha",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "[Mantis] Zetsuei",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "[Crane] Ryukoha",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "[Mantis] Shitenketsu",
+        "input": ":qcb::qcb:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "[Crane] Teiga",
+        "input": "{inAir}, :qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
