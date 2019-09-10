@@ -1,0 +1,88 @@
+{
+  "names": {
+    "default": {
+      "roman": "C. Viper"
+    },
+    "japan": {
+      "roman": "C. Viper",
+      "original": "クリムゾン・ヴァイパー"
+    }
+  },
+  "images": {
+    "face": "cviper.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Ab Fitness",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Temple Massage",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Viper Elbow",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Double Kick",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "High Jump",
+        "input": ":d::u:"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Seismic Hammer",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1,
+        "extraInfo": "{viperSpecialCancel}"
+      },
+      {
+        "name": "Thunder Knuckle",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1,
+        "extraInfo": "{viperSpecialCancel}"
+      },
+      {
+        "name": "Burning Kick",
+        "input": ":qcb:+[K] ({airOK})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Emergency Combination",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Burst Time",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Burning Dance",
+        "input": "{inAir}, :qcb::qcb:+[LK]+[MK]+[HK]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "viperSpecialCancel": "{press} [P]+[P] during startup {toCancel}"
+    },
+    "portuguese": {
+      "viperSpecialCancel": "{press} [P]+[P] durante o início do golpe {toCancel}"
+    }
+  }
+}
