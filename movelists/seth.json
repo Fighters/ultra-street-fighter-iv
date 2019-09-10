@@ -1,0 +1,103 @@
+{
+  "names": {
+    "default": {
+      "roman": "Seth"
+    },
+    "japan": {
+      "roman": "Seth",
+      "original": "セス"
+    }
+  },
+  "images": {
+    "face": "seth.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Genocide Shot",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Death Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Yosokyaku",
+        "input": "{inAir}, :d:+[MK] ({upTo3x})"
+      },
+      {
+        "name": "Tenmakujinkyaku",
+        "input": "{duringForwardJump}, {atJumpApex}, :d:+[HK]"
+      },
+      {
+        "name": "Wall Jump",
+        "input": "{duringJumpNearWall}, :f:"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Sonic Boom",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Shoryuken",
+        "input": ":dp:+[P] ({upTo3x})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1,
+        "extraInfo": "{sethShoryukenEX}"
+      },
+      {
+        "name": "Tanden Engine",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 2
+      },
+      {
+        "name": "Hyakuretsukyaku",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Spinning Piledriver",
+        "input": ":360:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Yoga Teleport",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Tanden Storm",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Tanden Stream",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Tanden Typhoon",
+        "input": ":qcb::qcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "sethShoryukenEX": "EX version {upTo5x}"
+    },
+    "portuguese": {
+      "sethShoryukenEX": "versão EX {upTo5x}"
+    }
+  }
+}
