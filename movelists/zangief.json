@@ -1,0 +1,96 @@
+{
+  "names": {
+    "default": {
+      "roman": "Zangief"
+    },
+    "japan": {
+      "roman": "Zangief",
+      "original": "ザンギエフ"
+    }
+  },
+  "images": {
+    "face": "zangief.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Bodyslam",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Brain Buster",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Long Kick",
+        "input": ":df:+[HK]"
+      },
+      {
+        "name": "Double Knee Drop",
+        "input": "{duringAngledJump} :d:+[LK]"
+      },
+      {
+        "name": "Flying Body Press",
+        "input": "{duringAngledJump} :d:+[HP]"
+      },
+      {
+        "name": "Flying Head Butt",
+        "input": "{duringVerticalJump} :u:+[MP] {or} [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Double Lariat",
+        "input": "[LP]+[MP]+[HP] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Quick Double Lariat",
+        "input": "[LK]+[MK]+[HK] ({use} :b: {or} :f: {toMove})"
+      },
+      {
+        "name": "Spinning Piledriver",
+        "input": ":360:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Flying Powerbomb",
+        "input": "{far}, :360:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Atomic Suplex",
+        "input": "{close}, :360:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Banishing Flat",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Final Atomic Buster",
+        "input": ":360::360:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Ultimate Atomic Buster",
+        "input": ":360::360:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Siberian Blizzard",
+        "input": "{inAir}, :360::360:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
