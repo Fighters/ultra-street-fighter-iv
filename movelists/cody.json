@@ -1,0 +1,113 @@
+{
+  "names": {
+    "default": {
+      "roman": "Cody"
+    },
+    "japan": {
+      "roman": "Cody",
+      "original": "コーディー"
+    }
+  },
+  "images": {
+    "face": "cody.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Prisoner Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Bad Stomp",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Stomach Blow",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Jaw Crusher",
+        "input": ":b:+[MP]"
+      },
+      {
+        "name": "Hammer Hook",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Crack Kick",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "Pick Up Knife",
+        "input": "{nearKnife}, :d:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Knife Throw",
+        "input": ":qcf:+[P]",
+        "after": "Pick Up Knife"
+      },
+      {
+        "name": "Bad Spray",
+        "input": "{whileGettingUp}, :u:+[P]"
+      },
+      {
+        "name": "Fake Bad Stone",
+        "input": ":d:+[HP]+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Bad Stone",
+        "input": ":qcf:+[P] ({hold} [P] {toCharge})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Ruffian Kick",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Criminal Upper",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Zonk Knuckle",
+        "input": "{hold} [P] {then} {release}",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Dead End Irony",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Final Destruction",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Last Dread Dust",
+        "input": ":qcb::qcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "nearKnife": "near the knife"
+    },
+    "portuguese": {
+      "nearKnife": "perto da faca"
+    }
+  }
+}
