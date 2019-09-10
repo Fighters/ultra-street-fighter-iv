@@ -1,0 +1,107 @@
+{
+  "names": {
+    "default": {
+      "roman": "Abel"
+    },
+    "japan": {
+      "roman": "Abel",
+      "original": "アベル"
+    }
+  },
+  "images": {
+    "face": "abel.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Drop Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Pincer Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Forward Kick",
+        "input": ":f:+[MK]",
+        "extraInfo": "{forwardKickDashCancel}"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Change of Direction",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Second Mid",
+        "input": ":qcf:+[P] > :f:+[P]"
+      },
+      {
+        "name": "Second Low",
+        "input": ":qcf:+[P] > :f:+[K]"
+      },
+      {
+        "name": "Finish Mid",
+        "input": ":qcf:+[P] > :f:+[P] {or} [K] > :f:+[P]"
+      },
+      {
+        "name": "Finish Low",
+        "input": ":qcf:+[P] > :f:+[P] {or} [K] > :f:+[K]"
+      },
+      {
+        "name": "Falling Sky",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Wheel Kick",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Tornado Throw",
+        "input": ":hcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Marseilles Roll",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Heartless",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Soulless",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Breathless",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK] ({hold} [LK]+[MK]+[HK] {toDelay}; {press} [P] {whileDelaying} {toCancel})"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "forwardKickDashCancel": "can be canceled into a forward dash"
+    },
+    "portuguese": {
+      "forwardKickDashCancel": "pode ser cancelado em um dash para frente"
+    }
+  }
+}
