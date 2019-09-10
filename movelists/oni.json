@@ -1,0 +1,114 @@
+{
+  "names": {
+    "default": {
+      "roman": "Oni"
+    },
+    "japan": {
+      "roman": "Oni",
+      "original": "鬼"
+    }
+  },
+  "images": {
+    "face": "oni.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Ragoshoha",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Shuretto",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Gankauchi",
+        "input": ":b:+[MP]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": ":f:+[LP] > [MP]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": ":b:+[MP] > [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Gohadoken",
+        "input": ":qcf:+[P] ({hold} [P] {toCharge})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Gorai Hadoken",
+        "input": ":hcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Goshoryuken",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Sekisei Jiraiken",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Rakan Dantojin",
+        "input": ":hcf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Tatsumaki Zankukyaku",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Airborne Tatsumaki Zankukyaku",
+        "input": "{inAir}, :qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Zanku Hadosho",
+        "input": "{inAir}, :qcb:+[P]"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Raging Demon",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP] ({airOK})"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Meido Gohado",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Messatsu Gotenha",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Messatsu Gozanku",
+        "input": "{inAir}, :qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Tenchi Sokaigen",
+        "input": ":hcb::hcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
