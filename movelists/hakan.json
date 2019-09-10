@@ -1,0 +1,114 @@
+{
+  "names": {
+    "default": {
+      "roman": "Hakan"
+    },
+    "japan": {
+      "roman": "Hakan",
+      "original": "ハカン"
+    }
+  },
+  "images": {
+    "face": "hakan.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hakan Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Hakan Reverse",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Hakan Stomp",
+        "input": "{inAirAndClose}, [LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Hakan Smash",
+        "input": ":f:+[LP]"
+      },
+      {
+        "name": "Hakan Tackle",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Hakan Spear",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Step Low",
+        "input": ":f:+[LK]"
+      },
+      {
+        "name": "Front Kick",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Step Knee",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "Guard Position",
+        "input": ":d:+[LP]+[MP]+[HP] ({hold} :d: {toExtend})"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Oil Shower",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Oil Slide",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Body Press",
+        "input": "[P]",
+        "after": "Oil Slide"
+      },
+      {
+        "name": "Oil Shower",
+        "input": "[K]",
+        "after": "Oil Slide"
+      },
+      {
+        "name": "Oil Rocket",
+        "input": ":360:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Oil Dive",
+        "input": ":360:+[K] ({hold} [K] {toDelay})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Flying Oil Spin",
+        "input": ":qcf::qcf:+[K] ({hold} [K] {toDelay})"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Oil Coaster",
+        "input": ":360::360:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Oil Combination Hold",
+        "input": ":d::d::d:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
