@@ -1,0 +1,90 @@
+{
+  "names": {
+    "default": {
+      "roman": "E. Honda"
+    },
+    "japan": {
+      "roman": "E. Honda",
+      "original": "エドモンド本田"
+    }
+  },
+  "images": {
+    "face": "ehonda.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Saba-Ori",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Tawara Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Chikara-Ashi",
+        "input": ":df:+[HK]"
+      },
+      {
+        "name": "Tokoshizume",
+        "input": "[MP] > :df:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hundred Hand Slap",
+        "input": "{tapPunch}",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1,
+        "extraInfo": "{handsEXMove}"
+      },
+      {
+        "name": "Sumo Headbutt",
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Sumo Smash",
+        "input": "{charge} :d: :u:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Oicho Throw",
+        "input": ":hcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Super Killer Head Ram",
+        "input": "{charge} :b: :f::b::f:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Ultimate Killer Head Ram",
+        "input": "{charge} :b: :f::b::f:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Orochi Breaker",
+        "input": ":hcb::hcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "handsEXMove": "during EX version, {use} :b: {or} :f: {toMove}"
+    },
+
+    "portuguese": {
+      "handsEXMove": "durante a versão EX, {use} :b: {or} :f: {toMove}"
+    }
+  }
+}
