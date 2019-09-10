@@ -1,0 +1,24 @@
+{
+  "english": {
+    "normalThrows": "Normal Throws",
+    "uniqueAttacks": "Unique Attacks",
+    "specialMoves": "Special Moves",
+    "superCombo": "Super Combo",
+    "superCombos": "Super Combos",
+    "ultraCombo": "Ultra Combo",
+    "ultraCombos": "Ultra Combos",
+    "ultraCombo1": "Ultra Combo I",
+    "ultraCombo2": "Ultra Combo II"
+  },
+  "portuguese": {
+    "normalThrows": "Agarrões Normais",
+    "uniqueAttacks": "Ataques Únicos",
+    "specialMoves": "Golpes Especiais",
+    "superCombo": "Super Combo",
+    "superCombos": "Super Combos",
+    "ultraCombo": "Ultra Combo",
+    "ultraCombos": "Ultra Combos",
+    "ultraCombo1": "Ultra Combo I",
+    "ultraCombo2": "Ultra Combo II"
+  }
+}
