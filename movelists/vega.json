@@ -1,0 +1,134 @@
+{
+  "names": {
+    "default": {
+      "roman": "Vega"
+    },
+    "japan": {
+      "roman": "Balrog",
+      "original": "バルログ"
+    }
+  },
+  "images": {
+    "face": "vega.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Rainbow Suplex",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Crescent Line",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Stardust Drop",
+        "input": "{inAirAndClose}, [LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Mercury Shard",
+        "input": ":df:+[MK]"
+      },
+      {
+        "name": "Cosmic Heel",
+        "input": ":df:+[HK]"
+      },
+      {
+        "name": "Backslash",
+        "input": "[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Short Backslash",
+        "input": "[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Pick Up Mask",
+        "input": "{nearMask}, :d:+[P]+[P]"
+      },
+      {
+        "name": "Wall Jump",
+        "input": "{duringJumpNearWall} :f:"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Rolling Crystal Flash",
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Scarlet Terror",
+        "input": "{charge} :db: :f:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Sky High Claw",
+        "input": "{charge} :d: :u:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Flying Barcelona",
+        "input": "{charge} :d: :u:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Flying Barcelona Attack",
+        "input": "[P]",
+        "after": "Flying Barcelona"
+      },
+      {
+        "name": "Izuna Drop",
+        "input": "{close} :b: {or} :f:+[P]",
+        "after": "Flying Barcelona"
+      },
+      {
+        "name": "Remove Claw",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 2
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Flying Barcelona Special",
+        "input": "{charge} :db: :df::db::uf:+[K]"
+      },
+      {
+        "name": "Flying Barcelona Special Attack",
+        "input": "[P]",
+        "after": "Flying Barcelona Special"
+      },
+      {
+        "name": "Rolling Izuna Drop",
+        "input": "{close} :b: {or} :f:+[P]",
+        "after": "Flying Barcelona Special"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Bloody High Claw",
+        "input": "{charge} :db: :df::db::uf:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Splendid Claw",
+        "input": "{charge} :db: :f::b::f:+[LK]+[MK]+[HK]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "nearMask": "near the mask on the ground"
+    },
+    "portuguese": {
+      "nearMask": "perto da máscara no chão"
+    }
+  }
+}
