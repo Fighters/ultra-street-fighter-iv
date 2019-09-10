@@ -1,0 +1,99 @@
+{
+  "names": {
+    "default": {
+      "roman": "Juri"
+    },
+    "japan": {
+      "roman": "Juri",
+      "original": "ハン"
+    }
+  },
+  "images": {
+    "face": "juri.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Karen Kick",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Assatsu Kick",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Sekku",
+        "input": ":f:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Fuhajin",
+        "input": ":qcf:+[K] ({hold} [K] {toDelay})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Senpusha",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Kasatushi",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Shikusen",
+        "input": "{duringVerticalOrForwardJump}, :qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1,
+        "extraInfo": "{exShikusen}"
+      },
+      {
+        "name": "2nd Impact",
+        "input": "[K]",
+        "after": "Shikusen"
+      },
+      {
+        "name": "3rd Strike",
+        "input": "[K]",
+        "after": "2nd Impact"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Fuharenjin",
+        "input": ":qcb::qcb:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Feng Shui Engine",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Kaisen Dankairaku",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": [
+      {
+        "exShikusen": "EX version can be done during any jump"
+      }
+    ],
+    "portuguese": [
+      {
+        "exShikusen": "versão EX pode ser feita durante qualquer pulo"
+      }
+    ]
+  }
+}
