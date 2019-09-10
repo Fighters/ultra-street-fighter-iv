@@ -1,0 +1,80 @@
+{
+  "names": {
+    "default": {
+      "roman": "Fei Long"
+    },
+    "japan": {
+      "roman": "Fei Long",
+      "original": "フェイロン"
+    }
+  },
+  "images": {
+    "face": "feilong.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shushugai",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Tensho Tosaikyaku",
+        "input": "{close} :b: {or} :f:+[MP] {or} [HP]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Chokkarakusho",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Engekishu",
+        "input": ":f:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Rekkaken",
+        "input": ":qcf:+[P] ({upTo3x})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Shienkyaku",
+        "input": ":rdp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Rekkukyaku",
+        "input": ":db::hcf::uf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Tenshin",
+        "input": ":hcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Rekkashinken",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Rekkashingeki",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Gekirinken",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
