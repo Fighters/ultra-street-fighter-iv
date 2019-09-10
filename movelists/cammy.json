@@ -1,0 +1,113 @@
+{
+  "names": {
+    "default": {
+      "roman": "Cammy"
+    },
+    "japan": {
+      "roman": "Cammy",
+      "original": "キャミィ"
+    }
+  },
+  "images": {
+    "face": "cammy.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hooligan Suplex",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Frankensteiner",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Flying Neck Breaker",
+        "input": "{inAirAndClose}, [LP]+[LK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Spiral Arrow",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Cannon Spike",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Axel Spin Knuckle",
+        "input": ":hcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Cannon Strike",
+        "input": "{duringForwardJump}, :qcb:+[K]",
+        "extraInfo": "{cannonStrikeEX}",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Hooligan Combination",
+        "input": ":db::hcf::uf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Razor Edge Slicer",
+        "input": "{doNothing}",
+        "after": "Hooligan Combination"
+      },
+      {
+        "name": "Fatal Leg Twister",
+        "input": "{close}, [LP]+[LK]",
+        "after": "Hooligan Combination"
+      },
+      {
+        "name": "Cross Scissors Pressure",
+        "input": "{inAirAndClose}, [LP]+[LK]",
+        "after": "Hooligan Combination"
+      },
+      {
+        "name": "Cannon Strike",
+        "input": ":qcb:+[K]",
+        "after": "Hooligan Combination"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Spin Drive Smasher",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Gyro Drive Smasher",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "CQC (Cammy Quick Combination)",
+        "input": ":qcb::qcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": [
+      {
+        "cannonStrikeEX": "EX version can be done during any jump"
+      }
+    ],
+    "portuguese": [
+      {
+        "cannonStrikeEX": "versão EX pode ser feita durante qualquer pulo"
+      }
+    ]
+  }
+}
