@@ -1,0 +1,148 @@
+{
+  "names": {
+    "default": {
+      "roman": "Dudley"
+    },
+    "japan": {
+      "roman": "Dudley",
+      "original": "ダッドリー"
+    }
+  },
+  "images": {
+    "face": "dudley.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kidney Crusher",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Dynamite Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Slipping Jab",
+        "input": ":f:+[LP]"
+      },
+      {
+        "name": "Stomach Blow",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Step Straight",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Kidney Blow",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Dart Shot",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": ":f:+[LP] > [MP]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": ":d:+[LK] > [MK]"
+      },
+      {
+        "name": "Target Combo 3",
+        "input": ":f:+[HK] > [MK]"
+      },
+      {
+        "name": "Target Combo 4",
+        "input": "{close}, [LP] > [MP] > [MK]"
+      },
+      {
+        "name": "Target Combo 5",
+        "input": "{close}, [MP] {or} :f:+[MK] > [MK] > [HP]"
+      },
+      {
+        "name": "Target Combo 6",
+        "input": ":d:+[LK] > :d:+[MP] > :d:+[HP]"
+      },
+      {
+        "name": "Target Combo 7",
+        "input": "{close}, [MK] > [HK] > [HP]"
+      },
+      {
+        "name": "Target Combo 8",
+        "input": "{close}, [LK] > [MK] > [MP] > [HP]"
+      },
+      {
+        "name": "Victory Rose",
+        "input": ":d:+[HP]+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Jet Upper",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Machinegun Blow",
+        "input": ":hcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Duck",
+        "input": ":hcf:+[K]"
+      },
+      {
+        "name": "Ducking Straight",
+        "input": "[P]",
+        "after": "Duck"
+      },
+      {
+        "name": "Ducking Upper",
+        "input": "[K]",
+        "after": "Duck"
+      },
+      {
+        "name": "Cross Counter",
+        "input": ":hcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Short Swing Blow",
+        "input": ":hcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Thunderbolt",
+        "input": "{charge} :d: :u:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Rocket Upper",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Rolling Thunder",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Corkscrew Cross",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
