@@ -1,0 +1,88 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ken"
+    },
+    "japan": {
+      "roman": "Ken",
+      "original": "ケン"
+    }
+  },
+  "images": {
+    "face": "ken.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Hell Wheel",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Inazuma Kick",
+        "input": ":b:+[MK]"
+      },
+      {
+        "name": "Forward Step Kick",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Thunder Kick",
+        "input": ":f:+[HK] ({hold} [HK] {toCancel})"
+      },
+      {
+        "name": "Target Combo",
+        "input": "{close}, [MP] > [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Shoryuken",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Airborne Tatsumaki Senpukyaku",
+        "input": "{inAir}, :qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Shoryureppa",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Shinryuken",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Guren Senpukyaku",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
