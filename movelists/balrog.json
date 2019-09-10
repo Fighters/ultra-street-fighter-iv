@@ -1,0 +1,92 @@
+{
+  "names": {
+    "default": {
+      "roman": "Balrog"
+    },
+    "japan": {
+      "roman": "M. Bison",
+      "original": "マイク・バイソン"
+    }
+  },
+  "images": {
+    "face": "balrog.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Head Bomber",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Lever Break",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Dash Straight",
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Dash Upper",
+        "input": "{charge} :b: :f:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Dash Low Straight",
+        "input": "{charge} :b: :df:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Dash Swing Blow",
+        "input": "{charge} :b: :df:+{hold} [P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Dash Low Smash",
+        "input": "{charge} :b: :df:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Buffalo Headbutt",
+        "input": "{charge} :d: :u:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Turn Punch",
+        "input": "{hold} [LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] {then} {release}"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Crazy Buffalo",
+        "input": "{charge} :b: :f::b::f:+[P] {or} [K]",
+        "extraInfo": "{hold} [K] {toChangeAttack}"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Violent Buffalo",
+        "input": "{charge} :b: :f::b::f:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]",
+        "extraInfo": "{hold} [K] {toChangeAttack}"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Dirty Bull",
+        "input": ":hcb::hcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": [{ "toChangeAttack": "to change the attacks" }],
+    "portuguese": [{ "toChangeAttack": "para alterar os ataques" }]
+  }
+}
