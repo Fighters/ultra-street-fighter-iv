@@ -1,0 +1,80 @@
+{
+  "names": {
+    "default": {
+      "roman": "Rose"
+    },
+    "japan": {
+      "roman": "Rose",
+      "original": "ローズ"
+    }
+  },
+  "images": {
+    "face": "rose.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Soul Fall",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Soul Loop",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Slide",
+        "input": ":df:+[MK]"
+      },
+      {
+        "name": "Soul Piede",
+        "input": ":f:+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Soul Spark",
+        "input": ":hcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Soul Throw",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Soul Reflect",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Soul Spiral",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Aura Soul Spark",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Illusion Spark",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Soul Satellite",
+        "input": ":qcb::qcb:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
