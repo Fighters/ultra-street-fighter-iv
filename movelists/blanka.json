@@ -1,0 +1,106 @@
+{
+  "names": {
+    "default": {
+      "roman": "Blanka"
+    },
+    "japan": {
+      "roman": "Blanka",
+      "original": "ブランカ"
+    }
+  },
+  "images": {
+    "face": "blanka.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Wild Fang",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Jungle Wheel",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Rock Crusher",
+        "input": "{close} :b: {or} :f:+[MP]"
+      },
+      {
+        "name": "Amazon River Run",
+        "input": ":df:+[HP]"
+      },
+      {
+        "name": "Surprise Forward",
+        "input": ":f:+[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Surprise Back",
+        "input": ":b:+[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "Coward Crouch",
+        "input": ":d:+[LP]+[MP]+[HP] ({hold} :d: {toExtend})"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Electric Thunder",
+        "input": "{tapPunch}",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Rolling Attack",
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Backstep Roll",
+        "input": "{charge} :b: :f:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Vertical Rolling",
+        "input": "{charge} :d: :u:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1,
+        "extraInfo": "{vRollEXMove}"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Ground Shave Rolling",
+        "input": "{charge} :b: :f::b::f:+[P] ({hold} [P] {toDelay})"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Lightning Cannonball",
+        "input": "{charge} :b: :f::b::f:+[LP]+[MP]+[HP] ({hold} [LP]+[MP]+[HP] {toDelay})"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Shout of Earth (anti-air)",
+        "input": "{charge} :db: :df::db::uf:+[LP]+[MP]+[HP] ({hold} [LP]+[MP]+[HP] {toDelay})"
+      },
+      {
+        "name": "Shout of Earth (anti-ground)",
+        "input": "{charge} :db: :df::db::uf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "vRollEXMove": "during EX version, {use} :b: {or} :f: {toChangeTrajectory}"
+    },
+
+    "portuguese": {
+      "vRollEXMove": "durante a versão EX, {use} :b: {or} :f: {toChangeTrajectory}"
+    }
+  }
+}
