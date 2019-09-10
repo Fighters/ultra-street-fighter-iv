@@ -1,0 +1,139 @@
+{
+  "names": {
+    "default": {
+      "roman": "Akuma"
+    },
+    "japan": {
+      "roman": "Gouki",
+      "original": "ゴウキ"
+    }
+  },
+  "images": {
+    "face": "akuma.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Goshoha",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Shuretto",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Zugaihasatsu",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Tenmakujinkyaku",
+        "input": "{duringForwardJump}, {atJumpApex}, :d:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Gohadoken",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Shakunetsu Hadoken",
+        "input": ":hcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Zanku Hadoken",
+        "input": "{inAir}, :qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Goshoryuken",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Tatsumaki Zankukyaku",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Airborne Tatsumaki Zankukyaku",
+        "input": "{inAir}, :qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Hyakkishu",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Hyakki Gozan",
+        "input": "{doNothing}",
+        "after": "Hyakkishu"
+      },
+      {
+        "name": "Hyakki Gosho",
+        "input": "[P]",
+        "after": "Hyakkishu"
+      },
+      {
+        "name": "Hyakki Gojin",
+        "input": "[K]",
+        "after": "Hyakkishu"
+      },
+      {
+        "name": "Hyakki Gosai",
+        "input": "[LP]+[LK]",
+        "after": "Hyakkishu",
+        "extraInfo": "{onlyOnGroundedOpponent}"
+      },
+      {
+        "name": "Hyakki Goho",
+        "input": ":qcf:+[P]+[P]",
+        "after": "Hyakkishu",
+        "extraInfo": "hyakkiGoho"
+      },
+      {
+        "name": "Ashura Senku",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Raging Demon",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Wrath of the Raging Demon",
+        "input": "[LP] > [LP] > :b: > [LK] > [HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Demon Armageddon",
+        "input": ":u::u:+[LK]+[MK]+[HK]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "hyakkiGoho": "requires 1 stock of super meter",
+      "onlyOnGroundedOpponent": "only works on grounded opponent"
+    },
+    "portuguese": {
+      "hyakkiGoho": "requer 1 barra do medidor de super",
+      "onlyOnGroundedOpponent": "só funciona com o oponente no chão"
+    }
+  }
+}
