@@ -1,0 +1,86 @@
+{
+  "names": {
+    "default": {
+      "roman": "Adon"
+    },
+    "japan": {
+      "roman": "Adon",
+      "original": "アドン"
+    }
+  },
+  "images": {
+    "face": "adon.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Jaguar Carry",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Jaguar Slam",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Jaguar Crunch",
+        "input": ":f:+[MP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Jaguar Kick",
+        "input": ":rdp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Airborne Jaguar Kick",
+        "input": "{duringVerticalOrForwardJump}, :qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Rising Jaguar",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Jaguar Tooth",
+        "input": ":hcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Jaguar Varied Assault",
+        "input": ":qcf::d::df:+[P]"
+      },
+      {
+        "name": "Thousand Jaguars",
+        "input": "{tapPunch}",
+        "after": "Jaguar Varied Assault"
+      },
+      {
+        "name": "Jaguar Assassin",
+        "input": "{tapKick}",
+        "after": "Jaguar Varied Assault"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Jaguar Revolver",
+        "input": ":qcb::qcb:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Jaguar Avalanche",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
