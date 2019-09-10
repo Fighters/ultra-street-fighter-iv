@@ -1,0 +1,96 @@
+{
+  "names": {
+    "default": {
+      "roman": "T. Hawk"
+    },
+    "japan": {
+      "roman": "T. Hawk",
+      "original": "サンダー・ホーク"
+    }
+  },
+  "images": {
+    "face": "thawk.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Neck Hanging Tree",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Mexican Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Thrust Peak",
+        "input": ":df:+[LP]"
+      },
+      {
+        "name": "Heavy Shoulder",
+        "input": "{inAir}, :d:+[MP]"
+      },
+      {
+        "name": "Heavy Body Press",
+        "input": "{inAir}, :d:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Tomahawk Buster",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1,
+        "extraInfo": "{exTomahawkBusterFollowup}"
+      },
+      {
+        "name": "Mexican Typhoon",
+        "input": ":360:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Condor Spire",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Condor Dive",
+        "input": "{duringVerticalOrForwardJump}, [LP]+[MP]+[HP]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1,
+        "extraInfo": "{exCondorDive}"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Double Typhoon",
+        "input": ":360::360:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Raging Typhoon",
+        "input": ":360::360:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Raging Slash",
+        "input": ":hcb::hcb:+[LK]+[MK]+[HK]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "exCondorDive": "EX version done with [LK]+[MK]+[HK]",
+      "exTomahawkBusterFollowup": "EX version can be followed up by EX Condor Dive by pressing [LP]+[MP]+[HP] in air"
+    },
+    "portuguese": {
+      "exCondorDive": "Versão EX feita com [LK]+[MK]+[HK]",
+      "exTomahawkBusterFollowup": "versão EX pode ser cancelada em EX Condor Dive ao apertar [LP]+[MP]+[HP] no ar"
+    }
+  }
+}
