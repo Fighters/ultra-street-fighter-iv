@@ -1,0 +1,164 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ibuki"
+    },
+    "japan": {
+      "roman": "Ibuki",
+      "original": "いぶき"
+    }
+  },
+  "images": {
+    "face": "ibuki.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Yamikazura",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Uki Yami",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Tobizaru",
+        "input": "{inAirAndClose}, [LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Agemen",
+        "input": ":b:+[MP]"
+      },
+      {
+        "name": "Makigeri",
+        "input": ":f:+[LK]"
+      },
+      {
+        "name": "Uramakigeri",
+        "input": ":b:+[MK]"
+      },
+      {
+        "name": "Kobekudaki",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Sazan",
+        "input": ":df:+[MK]"
+      },
+      {
+        "name": "Bonshogeri",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "Backhand Punch",
+        "input": "{far}, [HP] > [HP]"
+      },
+      {
+        "name": "High Jump",
+        "input": ":d::u:"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "{inAir}, [HP], :f:+[MK]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": "{duringForwardJump}, [LP], :f:+[HP]"
+      },
+      {
+        "name": "Target Combo 3",
+        "input": "{duringForwardJump}, [LK], :f:+[MK]"
+      },
+      {
+        "name": "Target Combo 4 (Shinten)",
+        "input": "{close}, [LP] > [MP] > [HP]"
+      },
+      {
+        "name": "Target Combo 5",
+        "input": "{far}, [LP] > [MP] > :f:+[LK]"
+      },
+      {
+        "name": "Target Combo 6",
+        "input": "{close}, [LP] > [MP] > :d:+[HK] > [HK]"
+      },
+      {
+        "name": "Target Combo 7",
+        "input": ":b:+[MK] > :f:+[MK]"
+      },
+      {
+        "name": "Target Combo 8",
+        "input": "{close}, [HP] > :d:+[HK] > [HK]"
+      },
+      {
+        "name": "Target Combo 9",
+        "input": "{close}, [LK] > [MK] > [HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Kunai",
+        "input": "{inAir}, :qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Kubiori",
+        "input": ":hcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Kazekiri",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Hien",
+        "input": ":rdp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Tsumuji",
+        "input": ":qcb:+[K], {then} [K] {or} :d:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Raida",
+        "input": ":hcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Kasumigake",
+        "input": ":qcf:+[K]"
+      },
+      {
+        "name": "Tsuijigoe",
+        "input": ":dp:+[P]"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Kasumi Suzaku",
+        "input": "{inAir}, :qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Yoroitoshi",
+        "input": ":hcb::hcb:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Hashinsho",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
