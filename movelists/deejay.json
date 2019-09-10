@@ -1,0 +1,76 @@
+{
+  "names": {
+    "default": {
+      "roman": "Dee Jay"
+    },
+    "japan": {
+      "roman": "Dee Jay",
+      "original": "ディージェイ"
+    }
+  },
+  "images": {
+    "face": "deejay.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Swing Over Launch",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Flip Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Knee Shot",
+        "input": "{duringAngledJump}, :d:+[LK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Air Slasher",
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Double Rolling Sobat",
+        "input": "{charge} :b: :f:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Machinegun Upper",
+        "input": "{charge} :d: :u:+[P] ({tapPunch} {forMoreHits})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Jackknife Maximum",
+        "input": "{charge} :d: :u:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Sobat Carnival",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Sobat Festival",
+        "input": "{charge} :b: :f::b::f:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Climax Beat",
+        "input": "{charge} :db: :df::db::uf:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
