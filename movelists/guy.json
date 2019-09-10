@@ -1,0 +1,127 @@
+{
+  "names": {
+    "default": {
+      "roman": "Guy"
+    },
+    "japan": {
+      "roman": "Guy",
+      "original": "ガイ"
+    }
+  },
+  "images": {
+    "face": "guy.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Grab Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Shoulder Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Neck Breaker",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Ninja Sickle",
+        "input": ":df:+[HK]"
+      },
+      {
+        "name": "Elbow Drop",
+        "input": "{inAir} :d:+[MP]"
+      },
+      {
+        "name": "Bushin Gokusaken",
+        "input": "{close}, [LP] > [MP] > [HP] > [HK]"
+      },
+      {
+        "name": "Bushinryu Seoi Nage",
+        "input": "{close}, [LP] > [MP] > [HP] > :d:+[HK]"
+      },
+      {
+        "name": "Target Combo",
+        "input": "{close}, [MP] > [HP]"
+      },
+      {
+        "name": "Wall Jump",
+        "input": "{duringJumpNearWall} :f:"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Bushin Izuna Otoshi",
+        "input": ":qcf:+[P] {then}, {close}, {press} [P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Bushin Elbow Drop",
+        "input": ":qcf:+[P] {then}, {far}, {press} [P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Hayagake",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Kyuteishi",
+        "input": "[LK]",
+        "after": "Hayagake"
+      },
+      {
+        "name": "Kage Sukui",
+        "input": "[MK]",
+        "after": "Hayagake"
+      },
+      {
+        "name": "Kubikari",
+        "input": "[HK]",
+        "after": "Hayagake"
+      },
+      {
+        "name": "Hozanto",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Bushin Senpukyaku",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Kaiten Izuna Otoshi",
+        "input": "{inAirAndClose}, :qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Bushin Hasoken",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Bushin Goraisenpujin",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Bushin Muso Renge",
+        "input": ":hcb::hcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
