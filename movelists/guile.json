@@ -1,0 +1,100 @@
+{
+  "names": {
+    "default": {
+      "roman": "Guile"
+    },
+    "japan": {
+      "roman": "Guile",
+      "original": "ガイル"
+    }
+  },
+  "images": {
+    "face": "guile.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Dragon Suplex",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Judo Throw",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Flying Mare",
+        "input": "{inAirAndClose}, [LP]+[LK]"
+      },
+      {
+        "name": "Flying Buster Drop",
+        "input": "{inAirAndClose}, :b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Full Bullet Magnum",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Spinning Back Knuckle",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Knee Bazooka",
+        "input": ":b: {or} :f:+[LK]"
+      },
+      {
+        "name": "Rolling Sobat",
+        "input": ":b: {or} :f:+[MK]"
+      },
+      {
+        "name": "Reverse Spin Kick",
+        "input": "{close} :b: {or} :f:+[HK]"
+      },
+      {
+        "name": "Guile High Kick",
+        "input": ":df:+[HK]"
+      },
+      {
+        "name": "Drake Fang",
+        "input": ":d:+[MK] > :f:+[MP]"
+      },
+      {
+        "name": "Shades of Glory",
+        "input": ":d:+[HP]+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Sonic Boom",
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Flash Kick",
+        "input": "{charge} :d: :u:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Double Flash",
+        "input": "{charge} :db: :df::db::uf:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Flash Explosion",
+        "input": "{charge} :db: :df::db::uf:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Sonic Hurricane",
+        "input": "{charge} :b: :f::b::f:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
