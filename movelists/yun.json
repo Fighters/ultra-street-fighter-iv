@@ -1,0 +1,125 @@
+{
+  "names": {
+    "default": {
+      "roman": "Yun"
+    },
+    "japan": {
+      "roman": "Yun",
+      "original": "ユン"
+    }
+  },
+  "images": {
+    "face": "yun.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Gekitei Futai",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Ento Shugeki",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Dakai",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Senpukyaku",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Raigeki Shu",
+        "input": "{duringVerticalOrForwardJump}, {atJumpApex}, :df:+[K]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "{inAir}, [LP] > :f:+[HP]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": ":d:+[MP] > :d:+[HP]"
+      },
+      {
+        "name": "Target Combo 3",
+        "input": ":d:+[HK] > [HK]",
+        "extraInfo": "{tcGeneiJin}"
+      },
+      {
+        "name": "Target Combo 4",
+        "input": "{close}, [MP] > [HP] > :b:+[HP]",
+        "extraInfo": "{tcGeneiJin}"
+      },
+      {
+        "name": "Target Combo 4",
+        "input": "{close}, [LP] > [LK] > [MP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Zessho Hoho",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Tetsuzanko",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Nishokyaku",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Kobokushi (Feint)",
+        "input": ":qcb:+[LP]"
+      },
+      {
+        "name": "Kobokushi",
+        "input": ":qcb:+[MP] {or} [HP]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Zenpo Tenshin",
+        "input": ":hcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Genei Jin",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Yoho",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Sorai Rengeki",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "tcGeneiJin": "not possible during Genei Jin"
+    },
+
+    "portuguese": {
+      "tcGeneiJin": "não pode ser feito durante o Genei Jin"
+    }
+  }
+}
