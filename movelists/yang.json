@@ -1,0 +1,112 @@
+{
+  "names": {
+    "default": {
+      "roman": "Yang"
+    },
+    "japan": {
+      "roman": "Yang",
+      "original": "ヤン"
+    }
+  },
+  "images": {
+    "face": "yang.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Yohon Shiun",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Ento Shugeki",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Senpukyaku",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Raigeki Shu",
+        "input": "{duringVerticalOrForwardJump}, {atJumpApex}, :df:+[K]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "{duringForwardJump}, [MK] > :df:+[MK]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": "{close}, [MP] > [HP] > :b:+[HP]"
+      },
+      {
+        "name": "Target Combo 3",
+        "input": "{close}, [LK] > [MK] > [HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Torozan",
+        "input": ":qcf:+[P] ({upTo3x})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1,
+        "extraInfo": "{torozanEX}"
+      },
+      {
+        "name": "Senkyutai",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Byakko Soshoda (Feint)",
+        "input": ":qcb:+[LP]"
+      },
+      {
+        "name": "Byakko Soshoda",
+        "input": ":qcb:+[MP] {or} [HP]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Zenpo Tenshin",
+        "input": ":hcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Kaiho",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Seiei Enbu",
+        "input": ":qcb::qcb:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Raishin Mahaken",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Tenshin Senkyutai",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "torozanEX": "EX version {upTo5x}"
+    },
+
+    "portuguese": {
+      "torozanEX": "versão EX {upTo5x}"
+    }
+  }
+}
