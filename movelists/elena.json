@@ -1,0 +1,110 @@
+{
+  "names": {
+    "default": {
+      "roman": "Elena"
+    },
+    "japan": {
+      "roman": "Elena",
+      "original": "エレナ"
+    }
+  },
+  "images": {
+    "face": "elena.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Leg Hook",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Leg Lift Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Handstand Kick",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Handstand Whip",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Sliding",
+        "input": ":df:+[HK]"
+      },
+      {
+        "name": "Round Arch",
+        "input": ":b:+[HK]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "{inAir}, [LP] > [MK]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": "{inAir}, [MP] > [HP]"
+      },
+      {
+        "name": "Target Combo 3",
+        "input": "[HP] > [HK]"
+      },
+      {
+        "name": "Target Combo 4",
+        "input": "[MK] > :d:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Scratch Wheel",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Spin Scythe",
+        "input": ":qcb:+[K] ({upTo2x})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Lynx Tail",
+        "input": ":rdp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Rhino Horn",
+        "input": ":hcf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Mallet Smash",
+        "input": ":hcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Spinning Beat",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Brave Dance",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Healing",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP] ({press} [LP]+[MP]+[HP] {toCancel})"
+      }
+    ]
+  }
+}
