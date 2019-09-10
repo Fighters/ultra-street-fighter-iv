@@ -1,0 +1,86 @@
+{
+  "names": {
+    "default": {
+      "roman": "Dhalsim"
+    },
+    "japan": {
+      "roman": "Dhalsim",
+      "original": "ダルシム"
+    }
+  },
+  "images": {
+    "face": "dhalsim.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Yoga Smash",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Yoga Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Short Limb",
+        "input": ":b: {or} :db:+[P] {or} [K]"
+      },
+      {
+        "name": "Yoga Tower",
+        "input": ":d:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Yoga Mummy",
+        "input": "{inAir} :d:+[HP]"
+      },
+      {
+        "name": "Drill Kick",
+        "input": "{inAir} :d:+[K]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Yoga Fire",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Yoga Flame",
+        "input": ":hcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Yoga Blast",
+        "input": ":hcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Yoga Teleport",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK] ({airOK})"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Yoga Inferno",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Yoga Catastrophe",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Yoga Shangri-La",
+        "input": "{inAir}, :qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
