@@ -1,0 +1,104 @@
+{
+  "names": {
+    "default": {
+      "roman": "Decapre"
+    },
+    "japan": {
+      "roman": "Decapre",
+      "original": "ディカープリ"
+    }
+  },
+  "images": {
+    "face": "decapre.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shadow Suplex",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Frankensteiner",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Flying Neck Hunt",
+        "input": "{inAirAndClose}, [LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Fox Tail",
+        "input": ":df:+[MK]"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "{close}, [MP] > [HK]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": "[MP] > [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Rapid Dagger",
+        "input": "{tapPunch}",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Spiral Arrow",
+        "input": "{inAir}, {charge} :b: :f:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Psycho Sting",
+        "input": "{charge} :d: :u:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Scramble",
+        "input": "{charge} :b: :f:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Break",
+        "input": "{charge} :b: :f:+[K] > [P]"
+      },
+      {
+        "name": "Razor Edge Slicer",
+        "input": "{charge} :b: :f:+[LK] > [K]"
+      },
+      {
+        "name": "Cannon Strike",
+        "input": "{charge} :b: :f:+[MK] {or} [HK] > [K]"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Strafe Dagger",
+        "input": "{charge} :b: :f::b::f:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Psycho Stream",
+        "input": "{charge} :b: :f::b::f:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "DCM (anti-ground)",
+        "input": "{charge} :b: :f::b::f:+[LK]+[MK]+[HK]"
+      },
+      {
+        "name": "DCM (anti-air)",
+        "input": "{charge} :db: :df::db::uf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
