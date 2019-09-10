@@ -1,0 +1,88 @@
+{
+  "names": {
+    "default": {
+      "roman": "Dan"
+    },
+    "japan": {
+      "roman": "Dan",
+      "original": "弾"
+    }
+  },
+  "images": {
+    "face": "dan.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Gado Thrust",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Saikyo Haraigoshi",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Saikyo Kick",
+        "input": ":b:+[HK]"
+      },
+      {
+        "name": "Ducking Taunt",
+        "input": ":d:+[HP]+[HK]"
+      },
+      {
+        "name": "Jumping Taunt",
+        "input": "{inAir}, [HP]+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Gadoken",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Koryuken",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Dankukyaku",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Airborne Dankukyaku",
+        "input": "{inAir}, :qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombos}": [
+      {
+        "name": "Hissho Buraiken",
+        "input": ":qcb::qcb:+[K]"
+      },
+      {
+        "name": "Legendary Taunt",
+        "input": ":qcf::qcf:+[HP]+[HK]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Shisso Buraiken",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Haoh Gadoken",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
