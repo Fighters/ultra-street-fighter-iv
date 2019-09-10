@@ -1,0 +1,104 @@
+{
+  "names": {
+    "default": {
+      "roman": "Evil Ryu"
+    },
+    "japan": {
+      "roman": "Evil Ryu",
+      "original": "殺意の波動に目覚めたリュウ"
+    }
+  },
+  "images": {
+    "face": "evilRyu.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shoulder Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Somersault Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Zugaihasatsu",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Senbukyaku",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Tenmakujinkyaku",
+        "input": "{duringForwardJump}, {atJumpApex}, :d:+[MK]"
+      },
+      {
+        "name": "Target Combo",
+        "input": "[MP] > [HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Shakunetsu Hadoken",
+        "input": ":hcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Shoryuken",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Airborne Tatsumaki Senpukyaku",
+        "input": "{inAir}, :qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Ryusokyaku",
+        "input": ":hcf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Ashura Senku",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Raging Demon",
+        "input": "[LP] > [LP] > :f: > [LK] > [HP]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Metsu Hadoken",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP] ({hold} [LP]+[MP]+[HP] {toCharge})"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Messatsu Goshoryu",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
