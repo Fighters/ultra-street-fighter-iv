@@ -1,0 +1,85 @@
+{
+  "names": {
+    "default": {
+      "roman": "M. Bison"
+    },
+    "japan": {
+      "roman": "Vega",
+      "original": "ベガ"
+    }
+  },
+  "images": {
+    "face": "mbison.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Deadly Throw",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Death Tower",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Hell Attack",
+        "input": "{duringAngledJump}, [MP] > [MP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Psycho Crusher",
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Double Knee Press",
+        "input": "{charge} :b: :f:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Devil Reverse",
+        "input": "{charge} :d: :u:+[P] ({use} :b: {or} :n: {or} :f:+[P] {toAttack})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Head Press",
+        "input": "{charge} :d: :u:+[K] ({use} :b: {or} :f: {toChangeTrajectory} {onHit})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Somersault Skull Diver",
+        "input": "[P]",
+        "after": "Head Press"
+      },
+      {
+        "name": "Bison Warp",
+        "input": ":dp: {or} :rdp:+[LP]+[MP]+[HP] {or} [LK]+[MK]+[HK]"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Knee Press Nightmare",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Nightmare Booster",
+        "input": "{charge} :b: :f::b::f:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Psycho Punisher",
+        "input": "{charge} :b: :f::b::f:+[LP]+[MP]+[HP] ({use} :f: {toControlDistance})"
+      }
+    ]
+  }
+}
