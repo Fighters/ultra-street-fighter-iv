@@ -1,0 +1,122 @@
+{
+  "names": {
+    "default": {
+      "roman": "Makoto"
+    },
+    "japan": {
+      "roman": "Makoto",
+      "original": "まこと"
+    }
+  },
+  "images": {
+    "face": "makoto.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Head Butt",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Triple Threat",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Kazami",
+        "input": ":f:+[LP]"
+      },
+      {
+        "name": "Kaoruna",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Shimaki",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Yamase",
+        "input": ":f:+[HP] > [HP]"
+      },
+      {
+        "name": "Shibuki",
+        "input": ":f:+[LK]"
+      },
+      {
+        "name": "Naruto",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Kuroshio",
+        "input": ":f:+[HK] ({hold} [HK] {toCancel})"
+      },
+      {
+        "name": "Target Combo 1",
+        "input": "[LK] > [MK]"
+      },
+      {
+        "name": "Target Combo 2",
+        "input": ":f:+[MK] > [HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hayate",
+        "input": ":qcf:+[P] ({hold} [P] {toCharge}; {press} [K] {whileDelaying} {toCancel})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Fukiage",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Oroshi",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Karakusa",
+        "input": ":hcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Tsurugi",
+        "input": "{duringVerticalOrForwardJump}, :qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Tanden Renki",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Seichusen Godanzuki",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Abare Tosanami",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK] ({abareTosanamiDistance})"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "abareTosanamiDistance": "{hold} [K] before reaching the wall {toControlDistance}"
+    },
+    "portuguese": {
+      "abareTosanamiDistance": "{hold} [K] antes de chegar à parede {toControlDistance}"
+    }
+  }
+}
