@@ -1,0 +1,158 @@
+{
+  "names": {
+    "default": {
+      "roman": "El Fuerte"
+    },
+    "japan": {
+      "roman": "El Fuerte",
+      "original": "エル・フォルテ"
+    }
+  },
+  "images": {
+    "face": "elfuerte.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Tepache Bomb",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Chili Mexicano",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Sky Sorpressa Drop",
+        "input": "{inAirAndClose}, [LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Shower Kick",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Wall Jump",
+        "input": "{duringJumpNearWall}, :f:"
+      },
+      {
+        "name": "Tostada Press",
+        "input": "{duringJumpNearWall}, :f:+[MP]"
+      },
+      {
+        "name": "Fajita Buster",
+        "input": "{duringJumpNearWall}, :f:+[HP]"
+      },
+      {
+        "name": "Target Combo",
+        "input": "{far}, [MK] > [MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Habanero Dash",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Sudden Stop",
+        "input": "[LP]",
+        "after": "Habanero Dash"
+      },
+      {
+        "name": "Tostada Press",
+        "input": "[MP]",
+        "after": "Habanero Dash",
+        "extraInfo": "{habaneroMovement}"
+      },
+      {
+        "name": "Fajita Buster",
+        "input": "[HP]",
+        "after": "Habanero Dash",
+        "extraInfo": "{habaneroMovement}"
+      },
+      {
+        "name": "Back Step",
+        "input": "[LK]",
+        "after": "Habanero Dash"
+      },
+      {
+        "name": "Gordita Sobat",
+        "input": "[MK]",
+        "after": "Habanero Dash"
+      },
+      {
+        "name": "Calamari Slide",
+        "input": "[HK]",
+        "after": "Habanero Dash"
+      },
+      {
+        "name": "Habanero Back Dash",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Sudden Stop",
+        "input": "[LP]",
+        "after": "Habanero Back Dash"
+      },
+      {
+        "name": "Tostada Press",
+        "input": "[MP]",
+        "after": "Habanero Back Dash",
+        "extraInfo": "{habaneroMovement}"
+      },
+      {
+        "name": "Propeller Tortilla",
+        "input": "[HP]",
+        "after": "Habanero Back Dash",
+        "extraInfo": "{habaneroMovement}"
+      },
+      {
+        "name": "Picadillo Jump",
+        "input": "[K]",
+        "after": "Habanero Back Dash"
+      },
+      {
+        "name": "Guacamole Leg Throw",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Quesadilla Bomb",
+        "input": "{hold} [K] {then} {release}",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "El Fuerte Dynamite",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "El Fuerte Flying Giga Buster",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "El Fuerte Ultra Spark",
+        "input": ":qcb::qcb:+[LK]+[MK]+[HK]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "habaneroMovement": "{use} :b: {or} :f: {toControlDistance}"
+    },
+    "portuguese": {
+      "habaneroMovement": "{use} :b: {or} :f: {toControlDistance}"
+    }
+  }
+}
