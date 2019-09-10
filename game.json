@@ -1,0 +1,711 @@
+{
+  "roman": {
+    "regions": [
+      {
+        "region": "default",
+        "roman": "Ultra Street Fighter IV"
+      },
+      {
+        "region": "japan",
+        "roman": "Ultra Street Fighter IV",
+        "original": "ウルトラストリートファイターIV"
+      }
+    ],
+    "also-known-as": ["ultra", "ultra sf4", "usf4", "usfiv", "healing edition"]
+  },
+  "platforms": [
+    {
+      "platform": "Arcade",
+      "regions": [
+        {
+          "region": "Japan",
+          "roman": "Ultra Street Fighter IV",
+          "original": "ウルトラストリートファイターIV",
+          "releaseDate": "04-17-2014",
+          "developer": "Capcom",
+          "publisher": "Taito"
+        }
+      ]
+    },
+    {
+      "platform": "PlayStation 3",
+      "regions": [
+        {
+          "region": "Japan",
+          "roman": "Ultra Street Fighter IV",
+          "original": "ウルトラストリートファイターIV",
+          "releaseDate": "08-07-2014",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "ps3-jp-front.webp"
+        },
+        {
+          "region": "United States",
+          "roman": "Ultra Street Fighter IV",
+          "releaseDate": "08-07-2014",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "ps3-us-front.webp"
+        },
+        {
+          "region": "Europe",
+          "roman": "Ultra Street Fighter IV",
+          "releaseDate": "08-08-2014",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "ps3-eu-front.webp"
+        }
+      ]
+    },
+    {
+      "platform": "PlayStation 4",
+      "regions": [
+        {
+          "region": "Japan",
+          "roman": "Ultra Street Fighter IV",
+          "original": "ウルトラストリートファイターIV",
+          "releaseDate": "09-04-2015",
+          "developer": "Capcom",
+          "publisher": "Capcom"
+        },
+        {
+          "region": "United States",
+          "roman": "Ultra Street Fighter IV",
+          "releaseDate": "05-26-2015",
+          "developer": "Capcom",
+          "publisher": "Capcom"
+        },
+        {
+          "region": "Europe",
+          "roman": "Ultra Street Fighter IV",
+          "releaseDate": "05-26-2015",
+          "developer": "Capcom",
+          "publisher": "Capcom"
+        }
+      ]
+    },
+    {
+      "platform": "XBox 360",
+      "regions": [
+        {
+          "region": "Japan",
+          "roman": "Ultra Street Fighter IV",
+          "original": "ウルトラストリートファイターIV",
+          "releaseDate": "08-05-2014",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "360-jp-front.webp"
+        },
+        {
+          "region": "United States",
+          "roman": "Ultra Street Fighter IV",
+          "releaseDate": "08-07-2014",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "360-us-front.webp"
+        },
+        {
+          "region": "Europe",
+          "roman": "Ultra Street Fighter IV",
+          "releaseDate": "08-08-2014",
+          "developer": "Capcom",
+          "publisher": "Capcom",
+          "coverFront": "360-eu-front.webp"
+        }
+      ]
+    },
+    {
+      "platform": "PC",
+      "regions": [
+        {
+          "region": "United States",
+          "roman": "Ultra Street Fighter IV",
+          "releaseDate": "08-07-2014",
+          "developer": "Capcom",
+          "publisher": "Capcom"
+        },
+        {
+          "region": "Europe",
+          "roman": "Ultra Street Fighter IV",
+          "releaseDate": "08-08-2014",
+          "developer": "Capcom",
+          "publisher": "Capcom"
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Ryu"
+        },
+        {
+          "region": "japan",
+          "roman": "Ryu",
+          "original": "リュウ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Ken Masters"
+        },
+        {
+          "region": "japan",
+          "roman": "Ken Masters",
+          "original": "ケン・マスターズ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Chun-Li"
+        },
+        {
+          "region": "japan",
+          "roman": "Chun-Li",
+          "original": "チュンリー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Dhalsim"
+        },
+        {
+          "region": "japan",
+          "roman": "Dhalsim",
+          "original": "ダルシム"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "M. Bison"
+        },
+        {
+          "region": "japan",
+          "roman": "Vega",
+          "original": "ベガ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Vega"
+        },
+        {
+          "region": "japan",
+          "roman": "Balrog",
+          "original": "バルログ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Zangief"
+        },
+        {
+          "region": "japan",
+          "roman": "Zangief",
+          "original": "ザンギエフ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Guile"
+        },
+        {
+          "region": "japan",
+          "roman": "Guile",
+          "original": "ガイル"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Balrog"
+        },
+        {
+          "region": "japan",
+          "roman": "M. Bison",
+          "original": "マイク・バイソン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Blanka"
+        },
+        {
+          "region": "japan",
+          "roman": "Blanka",
+          "original": "ブランカ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Sagat"
+        },
+        {
+          "region": "japan",
+          "roman": "Sagat",
+          "original": "サガット"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Edmond Honda"
+        },
+        {
+          "region": "japan",
+          "roman": "Edmond Honda",
+          "original": "エドモンド本田"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Cammy White"
+        },
+        {
+          "region": "japan",
+          "roman": "Cammy White",
+          "original": "キャミィ・ホワイト"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Fei Long"
+        },
+        {
+          "region": "japan",
+          "roman": "Fei Long",
+          "original": "フェイロン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Akuma"
+        },
+        {
+          "region": "japan",
+          "roman": "Gouki",
+          "original": "ゴウキ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Dan Hibiki"
+        },
+        {
+          "region": "japan",
+          "roman": "Dan Hibiki",
+          "original": "火引 弾"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Gen"
+        },
+        {
+          "region": "japan",
+          "roman": "Gen",
+          "original": "元"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Sakura Kasugano"
+        },
+        {
+          "region": "japan",
+          "roman": "Sakura Kasugano",
+          "original": "春日野 さくら"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Rose"
+        },
+        {
+          "region": "japan",
+          "roman": "Rose",
+          "original": "ローズ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Abel"
+        },
+        {
+          "region": "japan",
+          "roman": "Abel",
+          "original": "アベル"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Crimson Viper"
+        },
+        {
+          "region": "japan",
+          "roman": "Crimson Viper",
+          "original": "クリムゾン・ヴァイパー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Rufus"
+        },
+        {
+          "region": "japan",
+          "roman": "Rufus",
+          "original": "ルーファス"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "El Fuerte"
+        },
+        {
+          "region": "japan",
+          "roman": "El Fuerte",
+          "original": "エル・フォルテ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Seth"
+        },
+        {
+          "region": "japan",
+          "roman": "Seth",
+          "original": "セス"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Gouken"
+        },
+        {
+          "region": "japan",
+          "roman": "Gouken",
+          "original": "ゴウケン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Dee Jay"
+        },
+        {
+          "region": "japan",
+          "roman": "Dee Jay",
+          "original": "ディージェイ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Thunder Hawk"
+        },
+        {
+          "region": "japan",
+          "roman": "Thunder Hawk",
+          "original": "サンダー・ホーク"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Cody Travers"
+        },
+        {
+          "region": "japan",
+          "roman": "Cody Travers",
+          "original": "コーディー・トラバース"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Adon"
+        },
+        {
+          "region": "japan",
+          "roman": "Adon",
+          "original": "アドン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Guy"
+        },
+        {
+          "region": "japan",
+          "roman": "Guy",
+          "original": "ガイ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Dudley"
+        },
+        {
+          "region": "japan",
+          "roman": "Dudley",
+          "original": "ダッドリー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Makoto"
+        },
+        {
+          "region": "japan",
+          "roman": "Makoto",
+          "original": "まこと"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Ibuki"
+        },
+        {
+          "region": "japan",
+          "roman": "Ibuki",
+          "original": "いぶき"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Juri Han"
+        },
+        {
+          "region": "japan",
+          "roman": "Juri Han",
+          "original": "ハン・ジュリ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Hakan"
+        },
+        {
+          "region": "japan",
+          "roman": "Hakan",
+          "original": "ハカン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Yun"
+        },
+        {
+          "region": "japan",
+          "roman": "Yun",
+          "original": "ユン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Yang"
+        },
+        {
+          "region": "japan",
+          "roman": "Yang",
+          "original": "ヤン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Evil Ryu"
+        },
+        {
+          "region": "japan",
+          "roman": "Satsui no Hado ni Mezameta Ryu",
+          "original": "殺意の波動に目覚めたリュウ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Oni"
+        },
+        {
+          "region": "japan",
+          "roman": "Oni",
+          "original": "鬼"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Decapre"
+        },
+        {
+          "region": "japan",
+          "roman": "Decapre",
+          "original": "ディカープリ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Elena"
+        },
+        {
+          "region": "japan",
+          "roman": "Elena",
+          "original": "エレナ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Hugo"
+        },
+        {
+          "region": "japan",
+          "roman": "Hugo",
+          "original": "ヒューゴー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Poison"
+        },
+        {
+          "region": "japan",
+          "roman": "Poison",
+          "original": "ポイズン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Rolento F. Schugerg"
+        },
+        {
+          "region": "japan",
+          "roman": "Rolento F. Schugerg",
+          "original": "ロレント・F・シュゲルグ"
+        }
+      ]
+    }
+  ]
+}
