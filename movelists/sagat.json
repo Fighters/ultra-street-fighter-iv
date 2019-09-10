@@ -1,0 +1,104 @@
+{
+  "names": {
+    "default": {
+      "roman": "Sagat"
+    },
+    "japan": {
+      "roman": "Sagat",
+      "original": "サガット"
+    }
+  },
+  "images": {
+    "face": "sagat.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Tiger Rage",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Tiger Carry",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Heavy Tiger Elbow",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Low Step Kick",
+        "input": ":f:+[LK]"
+      },
+      {
+        "name": "High Step Kick",
+        "input": ":f:+[HK]"
+      },
+      {
+        "name": "Fake Kick",
+        "input": "[HK] > [HK]",
+        "extraInfo": "{sagatFakeKick}"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Tiger Shot",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Ground Tiger Shot",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Tiger Uppercut",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Tiger Knee Crush",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Angry Charge",
+        "input": ":qcb::qcb:+[K]",
+        "extraInfo": "{angryChargeCost}"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Tiger Genocide",
+        "input": ":qcf::qcf:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Tiger Destruction",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Tiger Cannon",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "angryChargeCost": "requires 1 bar of super meter",
+      "sagatFakeKick": "has to be done very quickly"
+    },
+    "portuguese": {
+      "angryChargeCost": "requer 1 barra do medidor de super",
+      "sagatFakeKick": "deve ser feito rapidamente"
+    }
+  }
+}
