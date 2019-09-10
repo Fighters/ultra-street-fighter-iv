@@ -1,0 +1,85 @@
+{
+  "names": {
+    "default": {
+      "roman": "Poison"
+    },
+    "japan": {
+      "roman": "Poison",
+      "original": "ポイズン"
+    }
+  },
+  "images": {
+    "face": "poison.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Slap Shot",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Frankensteiner",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Elbow Drop",
+        "input": ":f:+[MP]"
+      },
+      {
+        "name": "Backflip",
+        "input": "[LK]+[MK]+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Aeolus Edge",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Kissed by a Goddess",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Whip of Love",
+        "input": ":qcb:+[P] ({upTo3x})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Love Me Tender",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Poison Rana",
+        "input": "[K]",
+        "after": "Love Me Tender"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Thunder Whip",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Love Storm",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Poison Kiss",
+        "input": ":hcb::hcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
