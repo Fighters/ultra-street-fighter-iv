@@ -1,0 +1,102 @@
+{
+  "names": {
+    "default": {
+      "roman": "Rolento"
+    },
+    "japan": {
+      "roman": "Rolento",
+      "original": "ロレント"
+    }
+  },
+  "images": {
+    "face": "rolento.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Colonel Carrier",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Deadly Package",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Trick Rod",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Spike Rod",
+        "input": "{inAir} :d:+[MK]",
+        "extraInfo": "{spikeRodLanding}"
+      },
+      {
+        "name": "Trick Landing",
+        "input": "{whileLanding} [LK]+[MK]+[HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Patriot Circle",
+        "input": ":qcf:+[P] ({upTo3x})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Stinger",
+        "input": ":dp:+[K] ({press} [P] {or} [K] {toAttack})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Mekong Delta Air Raid",
+        "input": ":qcb:+[P] ({press} [P] {toAttack})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Mekong Delta Escape",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Mekong Delta Attack",
+        "input": "[LP]+[MP]+[HP] ({press} [P] {toAttack})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1,
+        "extraInfo": "mdaEX"
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Mine Sweeper",
+        "input": ":qcb::qcb:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Patriot Sweeper",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Take No Prisoners",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "spikeRodLanding": "{use} :b: {or} :f: afterwards to control where Rolento lands",
+      "mdaEX": "EX version is done by pressing [LP]+[MP]+[HP] {toAttack}"
+    },
+    "portuguese": {
+        "spikeRodLanding": "{use} :b: {or} :f: depois do golpe para controlar onde Rolento cairá",
+        "mdaEX": "Versão EX é feita ao apertar [LP]+[MP]+[HP] {toAttack}"
+    }
+  }
+}
