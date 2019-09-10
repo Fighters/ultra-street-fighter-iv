@@ -1,0 +1,96 @@
+{
+  "names": {
+    "default": {
+      "roman": "Hugo"
+    },
+    "japan": {
+      "roman": "Hugo",
+      "original": "ヒューゴー"
+    }
+  },
+  "images": {
+    "face": "hugo.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Neck Hanging Tree",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Body Slam",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Hammer Hook",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Leap Attack",
+        "input": ":d:,:n:,:d:+[MK]"
+      },
+      {
+        "name": "Body Press",
+        "input": "{duringVerticalOrForwardJump}, :d:+[HP]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Giant Palm Bomber",
+        "input": ":qcb:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Monster Lariat",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Shootdown Backbreaker",
+        "input": ":dp:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Ultra Throw",
+        "input": ":hcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Moonsault Press",
+        "input": ":360:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Meat Squasher",
+        "input": ":360:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Hammer Mountain",
+        "input": ":qcf::qcf:+[P] ({hold} [P] {toCancel})"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Gigas Breaker",
+        "input": ":360::360:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Megaton Press",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
