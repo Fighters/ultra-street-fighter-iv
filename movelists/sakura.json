@@ -1,0 +1,86 @@
+{
+  "names": {
+    "default": {
+      "roman": "Sakura"
+    },
+    "japan": {
+      "roman": "Sakura",
+      "original": "さくら"
+    }
+  },
+  "images": {
+    "face": "sakura.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Sailor Shoot",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Choba Throw",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Flower Kick",
+        "input": ":f:+[MK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hadoken",
+        "input": ":qcf:+[P] ({hold} [P] {toCharge})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Shouoken",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Shunpukyaku",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Airborne Shunpukyaku",
+        "input": ":qcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Sakura Otoshi",
+        "input": ":dp:+[K]  ({press} [P] {toAttack}; {upTo3x})",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Haru Ichiban",
+        "input": ":qcb::qcb:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Haru Ranman",
+        "input": ":qcb::qcb:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Shinku Hadoken",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      },
+      {
+        "name": "Shinku Tengyo Hadoken",
+        "input": ":qcf::qcf:+[LK]+[MK]+[HK]"
+      }
+    ]
+  }
+}
