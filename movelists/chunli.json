@@ -1,0 +1,112 @@
+{
+  "names": {
+    "default": {
+      "roman": "Chun-Li"
+    },
+    "japan": {
+      "roman": "Chun-Li",
+      "original": "チュンリー"
+    }
+  },
+  "images": {
+    "face": "chunli.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Koshuto",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Kirinshu",
+        "input": ":b:+[LP]+[LK]"
+      },
+      {
+        "name": "Ryuseiraku",
+        "input": "{inAirAndClose}, [LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Rear Spin Kick",
+        "input": ":df:+[LK]"
+      },
+      {
+        "name": "Kakukyakuraku",
+        "input": ":df:+[HK]"
+      },
+      {
+        "name": "Kakusenshu",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Kintekishu",
+        "input": ":b:+[MK]"
+      },
+      {
+        "name": "Tenkukyaku",
+        "input": ":b:+[MK] > [MK]"
+      },
+      {
+        "name": "Tenshokyaku",
+        "input": ":b:+[MK] > [MK] > :d::u:+[MK]"
+      },
+      {
+        "name": "Yosokyaku",
+        "input": "{inAir}, :d:+[MK] ({upTo3x})"
+      },
+      {
+        "name": "Target Combo",
+        "input": "{duringForwardJump}, [HP] > [HP]"
+      },
+      {
+        "name": "Wall Jump",
+        "input": "{duringJumpNearWall}, :f:"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hyakuretsukyaku",
+        "input": "{tapKick}",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Kikoken",
+        "input": "{charge} :b: :f:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Spinning Bird Kick",
+        "input": "{charge} :d: :u:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "Hazanshu",
+        "input": ":hcb:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Senretsukyaku",
+        "input": "{charge} :b: :f::b::f:+[K]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Hosenka",
+        "input": "{charge} :b: :f::b::f:+[LK]+[MK]+[HK]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Kikosho",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ]
+  }
+}
