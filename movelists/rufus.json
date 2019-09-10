@@ -1,0 +1,110 @@
+{
+  "names": {
+    "default": {
+      "roman": "Rufus"
+    },
+    "japan": {
+      "roman": "Rufus",
+      "original": "ルーファス"
+    }
+  },
+  "images": {
+    "face": "rufus.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Head Bazooka",
+        "input": "[LP]+[LK]"
+      },
+      {
+        "name": "Hand Machinegun",
+        "input": ":b:+[LP]+[LK]"
+      }
+    ],
+    "{uniqueAttacks}": [
+      {
+        "name": "Fragrance Palm",
+        "input": ":f:+[HP]"
+      },
+      {
+        "name": "Vulture Kick",
+        "input": ":f:+[MK]"
+      },
+      {
+        "name": "Glory Kick",
+        "input": ":df:+[MK]"
+      },
+      {
+        "name": "Falcon Kick",
+        "input": "{inAir}, :df:+[MK]"
+      },
+      {
+        "name": "Target Combo",
+        "input": "{close}, [LK] > [HK]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Galactic Tornado",
+        "input": ":qcf:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1,
+        "extraInfo": "{galacticTornadoMovement}"
+      },
+      {
+        "name": "Messiah Kick",
+        "input": ":qcf:+[K]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      },
+      {
+        "name": "High Attack",
+        "input": "[LK]",
+        "after": "Messiah Kick"
+      },
+      {
+        "name": "Low Attack",
+        "input": "[MK]",
+        "after": "Messiah Kick"
+      },
+      {
+        "name": "Mid Attack",
+        "input": "[HK]",
+        "after": "Messiah Kick"
+      },
+      {
+        "name": "Snake Strike",
+        "input": ":dp:+[P]",
+        "canBeUpgraded": true,
+        "costOfUpgrade": 1
+      }
+    ],
+    "{superCombo}": [
+      {
+        "name": "Spectacle Romance",
+        "input": ":qcf::qcf:+[P]"
+      }
+    ],
+    "{ultraCombo1}": [
+      {
+        "name": "Space Opera Symphony",
+        "input": ":qcf::qcf:+[LP]+[MP]+[HP]"
+      }
+    ],
+    "{ultraCombo2}": [
+      {
+        "name": "Big Bang Typhoon",
+        "input": ":qcb::qcb:+[LP]+[MP]+[HP]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "galacticTornadoMovement": "during [MP] {or} [HP] versions, {use} :b: {or} {toMove}"
+    },
+    "portuguese": {
+      "galacticTornadoMovement": "durante as versões com [MP] {or} [HP], {use} :b: {or} {toMove}"
+    }
+  }
+}
