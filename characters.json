@@ -1,0 +1,506 @@
+[
+    {
+        "name": "Ryu",
+        "repository": "",
+        "movelist": "ryu.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "リュウ"
+            }
+        ]
+    },
+    {
+        "name": "Ken",
+        "repository": "",
+        "movelist": "ken.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ケン・マスターズ"
+            }
+        ]
+    },
+    {
+        "name": "Chun-Li",
+        "repository": "",
+        "movelist": "chunli.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "チュンリー"
+            }
+        ]
+    },
+    {
+        "name": "Dhalsim",
+        "repository": "",
+        "movelist": "dhalsim.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ダルシム"
+            }
+        ]
+    },
+    {
+        "name": "M. Bison",
+        "also-known-as": [
+            "Dictator",
+            "Vega"
+        ],
+
+        "repository": "",
+        "movelist": "mbison.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ベガ"
+            }
+        ]
+    },
+    {
+        "name": "Vega",
+        "also-known-as": [
+            "Claw",
+            "Balrog"
+        ],
+        "repository": "",
+        "movelist": "vega.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "バルログ"
+            }
+        ]
+    },
+    {
+        "name": "Zangief",
+        "repository": "",
+        "movelist": "zangief.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ザンギエフ"
+            }
+        ]
+    },
+    {
+        "name": "Guile",
+        "repository": "",
+        "movelist": "guile.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ガイル"
+            }
+        ]
+    },
+    {
+        "name": "Balrog",
+        "also-known-as": [
+            "Boxer",
+            "M. Bison"
+        ],
+        "repository": "",
+        "movelist": "balrog.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "マイク・バイソン"
+            }
+        ]
+    },
+    {
+        "name": "Blanka",
+        "repository": "",
+        "movelist": "blanka.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ブランカ"
+            }
+        ]
+    },
+    {
+        "name": "Sagat",
+        "repository": "",
+        "movelist": "sagat.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "サガット"
+            }
+        ]
+    },
+    {
+        "name": "E. Honda",
+        "repository": "",
+        "movelist": "ehonda.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "エドモンド本田"
+            }
+        ]
+    },
+    {
+        "name": "Cammy",
+        "repository": "git@github.com:Fighters/cammy.git",
+        "movelist": "cammy.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "キャミィ・ホワイト"
+            }
+        ]
+    },
+    {
+        "name": "Fei Long",
+        "repository": "",
+        "movelist": "feilong.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "フェイロン"
+            }
+        ]
+    },
+    {
+        "name": "Akuma",
+        "also-known-as": [
+            "Gouki"
+        ],
+        "repository": "",
+        "movelist": "Akuma",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ゴウキ"
+            }
+        ]
+    },
+    {
+        "name": "Dan",
+        "repository": "git@github.com:Fighters/dan.git",
+        "movelist": "dan.json",
+        "names": [
+            {
+                "region": "japan",
+                "names": "火引 弾"
+            }
+        ]
+    },
+    {
+        "name": "Gen",
+        "repository": "",
+        "movelist": "gen",
+        "names": [
+            {
+                "region": "japan",
+                "name": "元"
+            }
+        ]
+    },
+    {
+        "name": "Sakura",
+        "repository": "",
+        "movelist": "sakura.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "春日野 さくら"
+            }
+        ]
+    },
+    {
+        "name": "Rose",
+        "repository": "",
+        "movelist": "rose.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ローズ"
+            }
+        ]
+    },
+    {
+        "name": "Abel",
+        "repository": "",
+        "movelist": "abel.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "アベル"
+            }
+        ]
+    },
+    {
+        "name": "C. Viper",
+        "repository": "",
+        "movelist": "cviper.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "クリムゾン・ヴァイパー"
+            }
+        ]
+    },
+    {
+        "name": "Rufus",
+        "repository": "",
+        "movelist": "rufus.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ルーファス"
+            }
+        ]
+    },
+    {
+        "name": "El Fuerte",
+        "repository": "",
+        "movelist": "elfuerte.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "エル・フォルテ"
+            }
+        ]
+    },
+    {
+        "name": "Seth",
+        "repository": "",
+        "movelist": "seth.json",
+        "names": [
+            {
+                "region": "japan",
+                "names": "セス"
+            }
+        ]
+    },
+    {
+        "name": "Gouken",
+        "repository": "",
+        "also-known-as": [
+            "Sheng Long"
+        ],
+        "movelist": "gouken",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ゴウケン"
+            }
+        ]
+    },
+    {
+        "name": "Dee Jay",
+        "repository": "",
+        "movelist": "deejay.json",
+        "names": [
+            {
+                "region": "japan",
+                "roman": "Dee Jay",
+                "original": "ディージェイ"
+            }
+        ]
+    },
+    {
+        "name": "T. Hawk",
+        "repository": "",
+        "movelist": "thawk.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "サンダー・ホーク"
+            }
+        ]
+    },
+    {
+        "name": "Cody",
+        "repository": "",
+        "movelist": "cody.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "コーディー・トラバース"
+            }
+        ]
+    },
+    {
+        "name": "Adon",
+        "repository": "",
+        "movelist": "adon.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "アドン"
+            }
+        ]
+    },
+    {
+        "name": "Guy",
+        "repository": "",
+        "movelist": "guy.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ガイ"
+            }
+        ]
+    },
+    {
+        "name": "Dudley",
+        "repository": "",
+        "movelist": "dudley.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ダッドリー"
+            }
+        ]
+    },
+    {
+        "name": "Makoto",
+        "repository": "",
+        "movelist": "makoto.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "まこと"
+            }
+        ]
+    },
+    {
+        "name": "Ibuki",
+        "repository": "",
+        "movelist": "ibuki.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "いぶき"
+            }
+        ]
+    },
+    {
+        "name": "Juri",
+        "repository": "",
+        "movelist": "juri.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ハン・ジュリ"
+            }
+        ]
+    },
+    {
+        "name": "Hakan",
+        "repository": "",
+        "movelist": "hakan.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ハカン"
+            }
+        ]
+    },
+    {
+        "name": "Yun",
+        "repository": "",
+        "movelist": "yun.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ユン"
+            }
+        ]
+    },
+    {
+        "name": "Yang",
+        "repository": "",
+        "movelist": "yang.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ヤン"
+            }
+        ]
+    },
+    {
+        "name": "Evil Ryu",
+        "repository": "",
+        "movelist": "evilryu.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "殺意の波動に目覚めたリュウ"
+            }
+        ]
+    },
+    {
+        "name": "Oni",
+        "repository": "",
+        "movelist": "oni.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "鬼"
+            }
+        ]
+    },
+    {
+        "name": "Decapre",
+        "repository": "",
+        "movelist": "decapre.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ディカープリ"
+            }
+        ]
+    },
+    {
+        "name": "Elena",
+        "repository": "",
+        "movelist": "elena.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "エレナ"
+            }
+        ]
+    },
+    {
+        "name": "Hugo",
+        "repository": "",
+        "movelist": "hugo.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ヒューゴー"
+            }
+        ]
+    },
+    {
+        "name": "Poison",
+        "repository": "",
+        "movelist": "poison.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ポイズン"
+            }
+        ]
+    },
+    {
+        "name": "Rolento",
+        "repository": "",
+        "movelist": "rolento.json",
+        "names": [
+            {
+                "region": "japan",
+                "name": "ロレント・F・シュゲルグ"
+            }
+        ]
+    }
+]
