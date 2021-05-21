@@ -49,7 +49,6 @@
             "Dictator",
             "Vega"
         ],
-
         "repository": "",
         "movelist": "mbison.json",
         "names": [
@@ -172,7 +171,7 @@
             "Gouki"
         ],
         "repository": "",
-        "movelist": "Akuma",
+        "movelist": "akuma.json",
         "names": [
             {
                 "region": "japan",
@@ -194,7 +193,7 @@
     {
         "name": "Gen",
         "repository": "",
-        "movelist": "gen",
+        "movelist": "gen.json",
         "names": [
             {
                 "region": "japan",
